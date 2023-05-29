@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: ze-delivery-api
+  main:
+    web-application-type: reactive
+  data:
+    mongodb:
+      auto-index-creation: true
+server:
+  error:
+    include-message: always

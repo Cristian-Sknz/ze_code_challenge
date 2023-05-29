@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: ze-delivery-api
+  main:
+    web-application-type: reactive
+  data:
+    mongodb:
+      auto-index-creation: true
+      uri: mongodb://${MONGO_USER:root}:${MONGO_PASSWORD:mongodb}@${MONGO_HOST:localhost:27017}/ze_delivery?authSource=admin
